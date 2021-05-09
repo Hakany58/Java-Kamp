@@ -40,8 +40,9 @@ public class Main {
 		
 		InstructorManager instructorManager = new InstructorManager();
 		instructorManager.courseAdd(instructor);
+
 		instructorManager.blocked(student);
-		
+		System.out.println("!!!!!");
 		
 
 		
