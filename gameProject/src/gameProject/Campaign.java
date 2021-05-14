@@ -1,5 +1,5 @@
 package gameProject;
-
+ 
 public class Campaign {
 
 	private String name;
