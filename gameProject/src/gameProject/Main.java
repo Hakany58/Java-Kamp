@@ -37,6 +37,8 @@ public class Main {
 		game.setName("League of Legends");
 		Game game1 = new Game();
 		game1.setName("Call Of Duty 2");
+		Game game2 = new Game();
+		game2.setName("NFS Most Wanted");
 		
 		////////////////////////////////////////////////////////
 		
@@ -44,7 +46,7 @@ public class Main {
 		GamerManager gamerManager = new GamerManager();
 		gamerManager.signUp(gamer);
 		gamerManager.update(gamer);
-
+		
 		////////////////////////////////////////////////////////
 		
 		//KAMPANYA EKLEYÝCÝSÝ (HANGÝ OYUNCUYA HANGÝ KAMPANYAYI EKLEMEK ÝSTERSÝNÝZ GÝBÝ)
@@ -53,7 +55,7 @@ public class Main {
 		campaignManager.addToCart(gamer, campaign1);
 		campaignManager.addToCart(gamer1, campaign1);
 		campaignManager.addToCart(gamer1, campaign2);
-		
+
 		////////////////////////////////////////////////////////
 		
 		//OYUN EKLEYÝCÝSÝ (HANGÝ OYUNCUYA HANGÝ OYUNU EKLEMEK ÝSTERSÝNÝZ GÝBÝ)
@@ -61,16 +63,16 @@ public class Main {
 		gameManager.addGame(gamer, game);
 		gameManager.addGame(gamer, game1);
 		gameManager.addGame(gamer1, game1);
+		gameManager.addGame(gamer, game2);
+		gameManager.addGame(gamer1, game2);
 		
 		////////////////////////////////////////////////////////
 		
 		
-		
-		
 		System.out.println(gamer.getName() +" Kampanyalarý : "+ gamer.getCart());
 		System.out.println(gamer1.getName() +" Kampanyalarý : "+ gamer1.getCart());
-		System.out.println(gamer.getName() +" Mevcut Oyunlarý : "+gamer.getGame());
-		System.out.println(gamer1.getName() +" Mevcut Oyunlarý : "+gamer1.getGame());
+		System.out.println(gamer.getName() +" Mevcut Oyunlarý : "+ gamer.getGame());
+		System.out.println(gamer1.getName() +" Mevcut Oyunlarý : "+ gamer1.getGame());
 		
 		
 		

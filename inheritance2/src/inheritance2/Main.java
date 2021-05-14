@@ -6,8 +6,10 @@ public class Main {
 
 		 CustomerManager customerManager = new CustomerManager();
 		 
+		 customerManager.add(new DatabaseLogger());
+		 customerManager.add(new FileLogger());
 		 customerManager.add(new EmailLogger());
 		
 	}
-
+  
 }

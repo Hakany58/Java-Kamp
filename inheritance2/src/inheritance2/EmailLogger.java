@@ -6,6 +6,6 @@ public class EmailLogger extends Logger {
 		
 		System.out.println("Email Gönderildi");
 		
-	}
+	} 
 
 }

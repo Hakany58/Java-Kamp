@@ -7,6 +7,11 @@ public class Gamer {
 	private String birthYear;
 	private String cart;
 	private String game;
+	
+	
+	
+	
+	
 	public String getName() {
 		return name;
 	}

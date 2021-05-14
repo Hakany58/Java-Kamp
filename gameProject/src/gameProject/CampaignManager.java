@@ -8,8 +8,7 @@ public class CampaignManager{
 		
 	}
 	
-	
-	
+
 	
 	
 }
