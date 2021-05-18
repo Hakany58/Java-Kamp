@@ -37,6 +37,7 @@ public class Main {
 		BaseCustomerManager customerManager2 = new OsmanliCustomerManager();
 		customerManager2.save(customer);
 		
+		
 
 	}
 
